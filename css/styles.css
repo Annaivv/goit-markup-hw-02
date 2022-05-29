@@ -10,6 +10,35 @@ body {
 .link {
     text-decoration: none;
 }
+
+.logo {
+    color: #000000;
+}
+
+.logo > span {
+    color: #2196F3;
+}
+
+/* Header */
+
+/* Site nav */
+.site-nav .link {
+    color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+
+.contacts {
+    color: #757575;
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: #2196F3;
+}
 /*цвет заголовков #212121*/
 /*цвет текста, телефон и адрес #757575*/
 /*акцент #2196F3*/
