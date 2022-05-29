@@ -1,6 +1,12 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+}
+
 body {
     background-color: #FFFFFF;
-    color: #757575;
+    color: var(--primary-text-color);
 }
 
 .list {
@@ -16,35 +22,39 @@ body {
 }
 
 .logo > span {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* Header */
 
 /* Site nav */
 .site-nav .link {
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* Contact links */
 .contacts {
-    color: #757575;
+    color: var(--primary-text-color);
 }
 
 .contacts:hover,
 .contacts:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* Main */
 
+/* Hero */
+
+/* Section */
+
 .title {
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 /*цвет заголовков #212121*/
