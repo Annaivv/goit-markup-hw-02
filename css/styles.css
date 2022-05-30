@@ -2,6 +2,8 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
+    --primary-bg-color: #E5E5E5;
+    --secondary-bg-color: #F5F4FA;
 }
 
 body {
@@ -55,6 +57,18 @@ body {
 
 .title {
     color: var(--title-text-color);
+}
+
+/* Portfolio */
+.button {
+    background-color: var(--secondary-bg-color);
+    color: var(--title-text-color);
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
 }
 
 /*цвет заголовков #212121*/
