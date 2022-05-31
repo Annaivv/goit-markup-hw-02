@@ -11,6 +11,7 @@ body {
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
+    font-size: 14px;
 }
 
 .list {
@@ -24,6 +25,9 @@ body {
 .logo {
     color: #000000;
     font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 
 .logo > span {
@@ -35,6 +39,9 @@ body {
 /* Site nav */
 .site-nav .link {
     color: var(--title-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -49,6 +56,10 @@ body {
 /* Contact links */
 .contacts {
     color: var(--primary-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+   
 }
 
 .contacts:hover,
@@ -56,14 +67,51 @@ body {
     color: var(--accent-color);
 }
 
-/* Main */
-
 /* Hero */
 
-/* Section */
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
 
 .title {
     color: var(--title-text-color);
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+/* Features */
+.features-list .title {
+    line-height: 0.88;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.features-list .text {
+    line-height: 1.71;
+}
+
+/* Team */
+.team {
+    background-color: var(--secondary-bg-color);
+}
+
+.team-list li {
+    background-color: #FFFFFF;
 }
 
 /* Portfolio */
