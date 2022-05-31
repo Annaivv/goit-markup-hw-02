@@ -146,12 +146,31 @@ body {
 .button {
     background-color: var(--secondary-bg-color);
     color: var(--title-text-color);
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
 }
 
 .button:hover,
 .button:focus {
     background-color: var(--accent-color);
     color: #FFFFFF;
+}
+
+.portfolio-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-category {
+    font-size: 16px;
+    line-height: 1.88;
+    text-decoration: none;
+    color: var(--primary-text-color);
 }
 
 /*цвет заголовков #212121*/
