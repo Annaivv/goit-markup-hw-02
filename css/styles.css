@@ -22,6 +22,14 @@ body {
     text-decoration: none;
 }
 
+.button {
+    font-size: 16px;
+    text-align: center;
+    border-radius: 4px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
 /* Header */
 .logo {
     color: #000000;
@@ -87,11 +95,8 @@ body {
 .hero-button {
     background-color: var(--accent-color);
     border-radius: 4px;
-    font-family: inherit;
     font-weight: 700;
-    font-size: 16px;
     line-height: 1.88;
-    text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
 }
@@ -109,8 +114,8 @@ body {
 
 /* Features */
 .features-list .title {
-    line-height: 0.88;
-    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.14;
     text-transform: uppercase;
 }
 
@@ -125,6 +130,12 @@ body {
 
 .team-list li {
     background-color: #FFFFFF;
+}
+
+.team-list .title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
 }
 
 /* Footer */
@@ -144,17 +155,12 @@ body {
 }
 
 /* Portfolio */
-.button {
+.potfolio-button {
     background-color: var(--secondary-bg-color);
     color: var(--title-text-color);
-    border-radius: 4px;
-    font-family: inherit;
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.62;
-    text-align: center;
-    cursor: pointer;
-}
+    }
 
 .button:hover,
 .button:focus {
