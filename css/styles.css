@@ -57,12 +57,13 @@ body {
     color: var(--primary-text-color);
     font-weight: 500;
     line-height: 1.14;
-    letter-spacing: 0.02em;
-   
+    letter-spacing: 0.02em; 
 }
 
 .contacts:hover,
-.contacts:focus {
+.contacts:focus, 
+.footer-contacts:hover,
+.footer-contacts:focus {
     color: var(--accent-color);
 }
 
@@ -152,6 +153,7 @@ body {
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
+    cursor: pointer;
 }
 
 .button:hover,
